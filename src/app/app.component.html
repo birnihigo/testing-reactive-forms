@@ -17,4 +17,7 @@
     <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
   </li>
 </ul>
+<textarea-expanded [formControl]="textareaControl"></textarea-expanded>
+<button (click)="textareaControl.disable()">Disable</button>
+<p> {{ textareaControl | json }}
 
